@@ -7,7 +7,7 @@ def test_card_number_private():
 
 
 def test_account_number_private():
-    assert funcs.account_number_private("1234448567890123456") == "**3456"
+    assert funcs.account_number_private("123448567890123456") == "**3456"
     assert funcs.account_number_private("Счет 2111555599996666") == "**6666"
 
 
